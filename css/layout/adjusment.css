@@ -1,0 +1,99 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Ubuntu-Light';
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  color: #2f3234;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-width: 960px;
+}
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  min-width: 960px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  background: #e45028;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 9px 16px;
+  font-family: 'Ubuntu-Medium';
+  transition: all .3s;
+}
+
+.btn:hover {
+  background: #c1401e;
+  transition: all .3s;
+}
+
+.section__title {
+  color: #f9b43b;
+  font-size: 72px;
+  font-family: 'Gagalin-Regular';
+  margin-bottom: 12px;
+}

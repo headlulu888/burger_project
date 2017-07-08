@@ -1,0 +1,261 @@
+.burgers {
+  background: linear-gradient(to bottom, #f9b43b 0%, #eb8c38 40%, #eb8c38 60%, #eb8c38 60%, #f9b43b 100%);
+}
+
+.burgers__container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+
+.burger-weight {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  opacity: .5;
+}
+
+.burger-weight__measure {
+  background: url(../img/icons/kkal.svg) 50% no-repeat;
+  width: 65px;
+  height: 60px;
+  position: relative;
+}
+
+.burger-weight__amount {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Gagalin-Regular';
+}
+
+.burger-weight__title {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Gagalin-Regular';
+}
+
+.burgers-slider__left {
+  float: left;
+  width: 50%;
+  padding-top: 95px;
+}
+
+.burgers-slider__pic {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.burgers-slider__buy {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 32px;
+}
+
+.burgers-slider__right {
+  float: left;
+  width: 50%;
+}
+
+.section__title {
+  color: #f9b43b;
+  font-size: 72px;
+  font-family: 'Gagalin-Regular';
+  margin-bottom: 12px;
+}
+
+.section__title_white {
+  color: white;
+  line-height: 1.1em;
+  margin-bottom: 15px;
+}
+
+.burgers-slider__text {
+  color: white;
+  margin-bottom: 18px;
+}
+
+.burgers-slider__price {
+  display: inline-block;
+  vertical-align: middle;
+  color: #e35028;
+  font-family: 'Gagalin-Regular';
+}
+
+.burgers-slider__price-amount {
+  font-size: 72px;
+}
+
+.burgers-slider__price-measure {
+  font-size: 30px;
+}
+
+.burgers-slider__price-amount, .burgers-slider__price-measure {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1;
+}
+
+.ingredients {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background: rgba(227, 80, 40, 0.4);
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  transition: .3s;
+  z-index: 10;
+}
+
+.ingredients__icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+.ingredients__icon-pic {
+  background: url(../img/icons/burger.svg) center center no-repeat;
+  height: 45px;
+  width: 45px;
+}
+
+.ingredients__icon-text {
+  color: white;
+  font-size: 14px;
+  font-family: 'Gagalin-Regular';
+}
+
+.ingredients__dropdown {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 270px;
+  border-radius: 7px;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity .3s;
+  z-index: 10;
+}
+
+.ingredients__table {
+  width: 100%;
+}
+
+.ingredients__table-cell {
+  vertical-align: middle;
+  padding: 8px 0;
+}
+
+.ingredients__table-pic1 {
+  background: url(../img/icons/beef.svg) center center no-repeat;
+  height: 39px;
+  width: 44px;
+}
+
+.ingredients__table-pic2 {
+  background: url(../img/icons/buns.svg) center center no-repeat;
+  height: 39px;
+  width: 44px;
+}
+
+.ingredients__table-pic3 {
+  background: url(../img/icons/salad.svg) center center no-repeat;
+  height: 39px;
+  width: 44px;
+}
+
+.ingredients__table-pic4 {
+  background: url(../img/icons/sauce.svg) center center no-repeat;
+  height: 39px;
+  width: 44px;
+}
+
+.ingredients__table-pic5 {
+  background: url(../img/icons/cucumber.svg) center center no-repeat;
+  height: 39px;
+  width: 44px;
+}
+
+.ingredients__table-pic6 {
+  background: url(../img/icons/cheese.svg) center center no-repeat;
+  height: 39px;
+  width: 44px;
+}
+
+.ingredients:hover {
+  background: #e35028;
+  cursor: pointer;
+}
+
+.ingredients:hover .ingredients__dropdown {
+  left: 101%;
+  opacity: 1;
+}
+
+.burgers-slider__item {
+  position: relative;
+  padding-bottom: 85px;
+  outline: none;
+}
+
+.slick-arrow {
+  text-indent: -9999px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  background: url(../img/icons/arrow-left.svg) center center no-repeat;
+  height: 29px;
+  width: 15px;
+}
+
+.slick-next {
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  background: url(../img/icons/arrow-right.svg) center center no-repeat;
+  height: 29px;
+  width: 15px;
+}
+
+
+.left-arrow {
+  background: url(../img/icons/arrow-left.svg) center center no-repeat;
+  display: block;
+  position: absolute;
+  bottom: 215px;
+  left: -4%;
+  width: 60px;
+  height: 30px;
+  /*margin-left: -15px;*/
+  transition: .3s;
+}
+
+.right-arrow {
+  background: url(../img/icons/arrow-right.svg) center center no-repeat;
+  display: block;
+  position: absolute;
+  bottom: 215px;
+  left: 97.5%;
+  width: 60px;
+  height: 30px;
+  /*margin-left: -15px;*/
+  transition: .3s;
+}

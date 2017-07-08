@@ -1,0 +1,105 @@
+.team {
+  background: url(../img/bg/team.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.team__section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background: rgba(47, 50, 52, 0.93);
+  padding: 5% 2% 0% 7%;
+}
+
+.team-acco__item {
+  margin-bottom: 40px;
+}
+
+.team-acco__trigger {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Gagalin-Regular';
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+.team-acco__trigger:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -19px;
+  top: 8px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid #f9b43b;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 0px solid transparent;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  transition: .3s;
+}
+
+.team-acco__item_active .team-acco__content {
+  display: block;
+  height: auto;
+}
+.team-acco__item_active .team-acco__trigger {
+  color: #f9b43b;
+}
+.team-acco__item_active .team-acco__trigger:before {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.team-acco__content {
+  overflow: hidden;
+  margin-top: 14px;
+  transition: height 0.4s;
+  height: 0;
+}
+
+.team-acco__content__wrap {
+  height: auto;
+}
+
+.team-acco__pic {
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+
+.team-acco__text {
+  float: left;
+  width: 70%;
+}
+
+.team-acco__title {
+  font-family: 'ubuntubold';
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.team-acco__text-content {
+  font-family: 'Ubuntu-Light';
+  color: #fff;
+  font-size: 14px;
+}
+
+.team-acco__img {
+  background-image: url(../img/content/teammate.jpg);
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}

@@ -1,0 +1,92 @@
+.footer {
+  background: url(../img/bg/footer.jpg) center bottom no-repeat;
+  height: 60px;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 940px;
+}
+
+.footer__col {
+  float: left;
+  width: 50%;
+}
+
+.footer__address {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer__phone {
+  color: #e35028;
+  font-family: 'ubuntubold';
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer__col_right {
+  text-align: right;
+  padding-top: 9px;
+}
+
+.socials {
+  position: relative;
+  top: 50%;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.social__link-vk {
+  background: url(../img/icons/vk.svg) 50% no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  opacity: .3;
+  transition: .3s;
+}
+
+.social__link-vk:hover {
+  opacity: 1;
+}
+
+.social__link-fb {
+  background: url(../img/icons/fb.svg) 50% no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  opacity: .3;
+  transition: .3s;
+}
+
+.social__link-fb:hover {
+  opacity: 1;
+}
+
+.social__link-tw {
+  background: url(../img/icons/twitter.svg) 50% no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  opacity: .3;
+  transition: .3s;
+}
+
+.social__link-tw:hover {
+  opacity: 1;
+}
+
+.fancybox-overlay {
+  background: rgba(47, 50, 52, 0.92) !important;
+}
+
+.fancybox-close {
+  display: none;
+}

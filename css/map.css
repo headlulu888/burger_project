@@ -1,0 +1,9 @@
+.map {
+  background-color: #black;
+  background-size: cover;
+  position: relative;
+}
+
+#ya-map {
+  height: calc(100% - 60px);
+}
